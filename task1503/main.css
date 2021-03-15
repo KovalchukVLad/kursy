@@ -1,0 +1,61 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #dbdbdb;
+}
+.top{
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    border: 10px solid black;
+}
+.top img{
+    height: 500px;
+}
+
+.photo{
+    display: flex;
+}
+.photo img{
+    width: 50%;
+}
+.photo1{
+    display: flex;
+}
+.photo1 img{
+    width: 50%;
+}
+
+.content{
+    border: 10px solid black;
+    padding: 20px;
+}
+
+.albums{
+    display: flex;
+    padding: 20px;
+}
+.albums ul{
+    padding-top: 80px;
+    padding-left: 300px;
+}
+
+.albums img{
+    height: 500px;
+}
+
+h1{
+    font-size: 52px;
+}
+h2{
+    font-size: 40px;
+    text-align: center;
+}
+h3{
+    font-size: 32px;
+}
+p, li{
+    font-size: 20px;
+}
+.cent{
+    text-align: center;
+}
