@@ -14,16 +14,14 @@ html{
 
 .photo{
     display: flex;
+    flex-wrap: wrap;
+
 }
 .photo img{
     width: 50%;
+
 }
-.photo1{
-    display: flex;
-}
-.photo1 img{
-    width: 50%;
-}
+
 
 .content{
     border: 10px solid black;

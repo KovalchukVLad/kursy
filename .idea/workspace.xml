@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/task1503/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1503/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1503/till.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" />
+    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="task1503&#10;finalproject 1.0">
+      <change afterPath="$PROJECT_DIR$/task1703/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/task1703/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1503/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task1503/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1503/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/task1503/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +24,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1poQe9FDXoU8RtBMKezZncSFhvr" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -38,7 +46,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\projects\kursy\prak1603" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -48,8 +67,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1615847056024</updated>
-      <workItem from="1615847057181" duration="1708000" />
+      <workItem from="1615847057181" duration="2036000" />
+      <workItem from="1615899897011" duration="835000" />
+      <workItem from="1615909921008" duration="6214000" />
+      <workItem from="1615922208101" duration="1742000" />
+      <workItem from="1616003993914" duration="6295000" />
     </task>
+    <task id="LOCAL-00001" summary="task1503&#10;finalproject 1.0">
+      <created>1615848841925</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1615848841925</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -65,5 +96,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task1503&#10;finalproject 1.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="task1503&#10;finalproject 1.0" />
   </component>
 </project>
