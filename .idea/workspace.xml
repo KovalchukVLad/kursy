@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="porshe">
-      <change afterPath="$PROJECT_DIR$/prak1803/taks3/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prak1803/taks3/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prak1803/task1/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prak1803/task1/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prak1803/task2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prak1803/task2/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prak1803/task4/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/prak1803/task4/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prak1803/task5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prak1803/task5/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prak1803/taks3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/prak1803/task3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prak1803/taks3/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/prak1803/task3/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +74,7 @@
       <workItem from="1616003993914" duration="6708000" />
       <workItem from="1616066604238" duration="6051000" />
       <workItem from="1616082624292" duration="5958000" />
-      <workItem from="1616098588924" duration="580000" />
+      <workItem from="1616098588924" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="task1503&#10;finalproject 1.0">
       <created>1615848841925</created>
@@ -108,7 +104,21 @@
       <option name="project" value="LOCAL" />
       <updated>1616072658842</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="porshe">
+      <created>1616099296403</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616099296403</updated>
+    </task>
+    <task id="LOCAL-00006" summary="porshe">
+      <created>1616099332670</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616099332670</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
