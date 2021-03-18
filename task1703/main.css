@@ -1,6 +1,11 @@
 h1,h2{
     text-align: center;
+}
 
+.test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .fl1{

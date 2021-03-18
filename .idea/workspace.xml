@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="task1503&#10;finalproject 1.0">
-      <change afterPath="$PROJECT_DIR$/task1703/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/task1703/main.css" afterDir="false" />
+    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="task1703&#10;done">
+      <change afterPath="$PROJECT_DIR$/porshe/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/porshe/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1503/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task1503/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/task1503/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/task1503/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1703/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/task1703/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task1703/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/task1703/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +71,8 @@
       <workItem from="1615899897011" duration="835000" />
       <workItem from="1615909921008" duration="6214000" />
       <workItem from="1615922208101" duration="1742000" />
-      <workItem from="1616003993914" duration="6295000" />
+      <workItem from="1616003993914" duration="6708000" />
+      <workItem from="1616066604238" duration="5739000" />
     </task>
     <task id="LOCAL-00001" summary="task1503&#10;finalproject 1.0">
       <created>1615848841925</created>
@@ -80,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615848841925</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="task1703&#10;done">
+      <created>1616014782263</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616014782263</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +108,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="task1503&#10;finalproject 1.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="task1503&#10;finalproject 1.0" />
+    <MESSAGE value="task1703&#10;done" />
+    <option name="LAST_COMMIT_MESSAGE" value="task1703&#10;done" />
   </component>
 </project>
