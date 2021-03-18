@@ -1,0 +1,40 @@
+html{
+    background-color: silver;
+    scroll-behavior: smooth;
+}
+
+.box{
+    height: 1000px;
+    width: 1000px;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: cornflowerblue;
+}
+.Nav{
+    width: 100%;
+    height: 100px;
+    background-color: cyan;
+}
+.box1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+.main{
+    width: 70%;
+    height: 100%;
+    background-color: darkslateblue;
+}
+.aside{
+    width: 30%;
+    height: 100%;
+    background-color: indigo;
+}
+
+.footer{
+    width: 100%;
+    height: 150px;
+    background-color: slateblue;
+}
