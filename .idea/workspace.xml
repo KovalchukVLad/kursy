@@ -1,20 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="praktychna">
-      <change afterPath="$PROJECT_DIR$/oktensite/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oktensite/main.css" afterDir="false" />
+    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="porshe">
+      <change afterPath="$PROJECT_DIR$/prak1803/task5/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/prak1803/task5/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/.idea/dbnavigator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/.idea/webstorm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/.idea/webstorm.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/images/Tom_Hanks.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/images/Tom_Hanks.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/images/forest.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/images/forest.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/images/green-mile.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/images/green-mile.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/images/grey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/images/grey.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/images/terminal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/images/terminal.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/p11/p1/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prak1803/taks3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/prak1803/task3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prak1803/taks3/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/prak1803/task3/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +56,6 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\kursy\p11" />
       <recent name="C:\projects\kursy\prak1603" />
     </key>
   </component>
@@ -83,8 +74,7 @@
       <workItem from="1616003993914" duration="6708000" />
       <workItem from="1616066604238" duration="6051000" />
       <workItem from="1616082624292" duration="5958000" />
-      <workItem from="1616098588924" duration="4451000" />
-      <workItem from="1616247778547" duration="400000" />
+      <workItem from="1616098588924" duration="3920000" />
     </task>
     <task id="LOCAL-00001" summary="task1503&#10;finalproject 1.0">
       <created>1615848841925</created>
@@ -128,14 +118,7 @@
       <option name="project" value="LOCAL" />
       <updated>1616099332670</updated>
     </task>
-    <task id="LOCAL-00007" summary="praktychna">
-      <created>1616102753366</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1616102753366</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +140,6 @@
     <MESSAGE value="task1503&#10;finalproject 1.0" />
     <MESSAGE value="task1703&#10;done" />
     <MESSAGE value="porshe" />
-    <MESSAGE value="praktychna" />
-    <option name="LAST_COMMIT_MESSAGE" value="praktychna" />
+    <option name="LAST_COMMIT_MESSAGE" value="porshe" />
   </component>
 </project>
