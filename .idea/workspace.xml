@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="moving">
-      <change afterPath="$PROJECT_DIR$/oktensite/images/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/oktensite/images/okten.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitestry/VPN/images/Free.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitestry/VPN/images/Huge Global.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitestry/VPN/images/Illustration 1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitestry/VPN/images/Illustration 2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitestry/VPN/images/Sponsored.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitestry/VPN/images/Standard Collection 27.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitestry/VPN/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sitestry/VPN/main.css" afterDir="false" />
+    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="site">
+      <change afterPath="$PROJECT_DIR$/Javascript1/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Javascript1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oktensite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/oktensite/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/oktensite/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/oktensite/main.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +14,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -60,14 +51,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\projects\kursy\sitestry\VPN\images" />
-      <recent name="C:\projects\kursy\oktensite\images" />
       <recent name="C:\projects\kursy\prak1603" />
     </key>
   </component>
@@ -87,8 +74,8 @@
       <workItem from="1616066604238" duration="6051000" />
       <workItem from="1616082624292" duration="5958000" />
       <workItem from="1616098588924" duration="3920000" />
-      <workItem from="1616351935203" duration="11868000" />
-      <workItem from="1616423894437" duration="3072000" />
+      <workItem from="1616443930208" duration="6661000" />
+      <workItem from="1616501996028" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="task1503&#10;finalproject 1.0">
       <created>1615848841925</created>
@@ -132,21 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616099332670</updated>
     </task>
-    <task id="LOCAL-00007" summary="moving">
-      <created>1616248385487</created>
+    <task id="LOCAL-00007" summary="site">
+      <created>1616427224531</created>
       <option name="number" value="00007" />
       <option name="presentableId" value="LOCAL-00007" />
       <option name="project" value="LOCAL" />
-      <updated>1616248385487</updated>
+      <updated>1616427224531</updated>
     </task>
-    <task id="LOCAL-00008" summary="moving">
-      <created>1616248407264</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1616248407264</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,11 +148,8 @@
     <MESSAGE value="task1503&#10;finalproject 1.0" />
     <MESSAGE value="task1703&#10;done" />
     <MESSAGE value="porshe" />
-    <MESSAGE value="moving" />
-    <option name="LAST_COMMIT_MESSAGE" value="moving" />
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
+    <MESSAGE value="Site" />
+    <MESSAGE value="site" />
+    <option name="LAST_COMMIT_MESSAGE" value="site" />
   </component>
 </project>
