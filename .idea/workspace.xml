@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="site">
-      <change afterPath="$PROJECT_DIR$/Javascript1/code.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Javascript1/index.html" afterDir="false" />
+    <list default="true" id="1dac647e-58aa-4ed9-b405-d91141eb017d" name="Default Changelist" comment="JS hw1.1">
+      <change afterPath="$PROJECT_DIR$/JavaScript1.1/code.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript1.1/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +75,8 @@
       <workItem from="1616082624292" duration="5958000" />
       <workItem from="1616098588924" duration="3920000" />
       <workItem from="1616443930208" duration="6661000" />
-      <workItem from="1616501996028" duration="435000" />
+      <workItem from="1616501996028" duration="761000" />
+      <workItem from="1616532464655" duration="4506000" />
     </task>
     <task id="LOCAL-00001" summary="task1503&#10;finalproject 1.0">
       <created>1615848841925</created>
@@ -126,7 +127,28 @@
       <option name="project" value="LOCAL" />
       <updated>1616427224531</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="JS hw1">
+      <created>1616502473690</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616502473690</updated>
+    </task>
+    <task id="LOCAL-00009" summary="JS hw1">
+      <created>1616502561903</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616502561903</updated>
+    </task>
+    <task id="LOCAL-00010" summary="JS hw1.1">
+      <created>1616502712079</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616502712079</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +172,8 @@
     <MESSAGE value="porshe" />
     <MESSAGE value="Site" />
     <MESSAGE value="site" />
-    <option name="LAST_COMMIT_MESSAGE" value="site" />
+    <MESSAGE value="JS hw1" />
+    <MESSAGE value="JS hw1.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="JS hw1.1" />
   </component>
 </project>
