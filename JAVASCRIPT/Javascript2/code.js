@@ -137,7 +137,7 @@
 
 // 15- Створити цикл for на 100 ітерацій. Вивести тільки непарні кроки. через console.log + document.write
 // for(let i = 0; i<100; i ++){
-//     if( i%2 == 1 ) {
+//     if( i%2 !== 0 ) {
 //         console.log(i);
 //         document.write(i+' ');
 //     }
@@ -171,6 +171,7 @@
 // let arr18 =[ 'a', 'b', 'c'];
 //
 // let word1 = '';
+//
 // for(let i =0; i<arr18.length; i++){
 //     word1 += arr18[i];
 // }
@@ -337,7 +338,7 @@
 // 3. перебрати циклом while та вивести  числа тільки з непарним індексом
 // let i = 0;
 // while (i<10){
-//     if (arr[i]%2 === 1)
+//     if (arr[i]%2 !== 0)
 //     {
 //         console.log(arr[i]);
 //     }
@@ -347,7 +348,7 @@
 // i=arr.length;
 // while (i>0){
 //     i--;
-//     if (arr[i]%2 === 1){
+//     if (arr[i]%2 !== 0){
 //     console.log(arr[i]);
 //         }
 // }
@@ -355,13 +356,13 @@
 /////////////////////////////
 // 4. перебрати циклом for та вивести  числа тільки з непарним індексом
 // for (let i = 0; i < arr.length; i++) {
-//     if (arr[i] % 2 === 1) {
+//     if (arr[i] % 2 !== 0) {
 //         console.log(arr[i]);
 //     }
 // }
 //
 // for(let i = arr.length-1; i>=0; i--){
-//     if (arr[i] % 2 === 1) {
+//     if (arr[i] % 2 !== 0) {
 //         console.log(arr[i ]);
 //     }
 // }
@@ -490,13 +491,15 @@
 //
 // 4. Вывести каждый елемент массива у которого соседний с права элемент - парный
 // let newArray =[];
-//  for (let i=0; i<100; i++){
+//  for (let i=0; i<8; i++){
 //      newArray[i] = Math.floor(Math.random() * (732 - 8) ) + 8;
-//         if (newArray[i]%2 === 0){
-//             console.log(newArray[i-1]);
-//         }
 //  }
 // console.log(newArray);
+// for (let i = 0; i < newArray.length; i++) {
+//     if (newArray[i+1] && newArray[i+1]%2 === 0){
+//         console.log(newArray[i]);
+//     }
+// }
 
 
 // -36 масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. обрахувати середній чек.
