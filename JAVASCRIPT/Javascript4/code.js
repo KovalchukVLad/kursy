@@ -202,6 +202,19 @@
 // let arr2 = [2,3,4,5, undefined, 1, undefined, 56, 2, 6 , 7];
 // let arr3 =task11(arr1, arr2);
 // console.log(arr3);
+// або
+// function bub (arrget1, arrget2) {
+//     arr3 = [];
+//     for (let i = 0; i < arrget1.length; i++) {
+//         arr3.push(arr1[i] + arr2[j]);
+//     }
+//     console.log(arr3);
+// }
+//
+// let arr1 = [1,2,3,4];
+// let arr2 = [2,3,4,5];
+// bub(arr1,arr2);
+
 
 
 /////////////////////////////////////////////////////////////////
@@ -222,6 +235,25 @@
 // let arr=[39, 60, 84, 69, 30, 61, 11, 56, 69, 52, 6, 21, 68, 34, 33, 64, 8, 45, 99, 26];
 // let a =numbersInput(arr);
 // console.log(a);
+//
+/////////або
+//
+function numbersInput (){
+    let max = arguments[0];
+    let min = arguments[0];
+    for (let i = 0; i < arguments.length; i++) {
+        if (arguments[i]>max){
+            max =arguments[i];
+        }
+        if (arguments[i]<min){
+            min =arguments[i];
+        }
+    }
+    console.log(min);
+    console.log(max);
+}
+let a =numbersInput(39, 60, 84, 69, 30, 61, 11, 56, 69, 52, 6, 21, 68, 34, 33, 64, 8, 45, 99, 26);
+console.log(a);
 
 
 // - Взяти задачі з завдання 10 та 9 та обєднати їх в одну динамічну функцію.
@@ -437,14 +469,6 @@ let autos = [{
 // getElem.style.fontSize = '18px';
 //
 // getAuto(autos, getElem);
-
-
-
-
-
-
-
-
 
 
 

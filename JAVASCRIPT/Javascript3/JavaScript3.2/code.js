@@ -188,4 +188,3 @@ let citiesWithId = [
 //     }
 // }
 // console.log(newFullArr);
-//
