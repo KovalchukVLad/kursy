@@ -13,54 +13,79 @@
 
 class Computers {
     constructor(ram, powerOfProc) {
-        this.ram =ram;
-        this.powerOfProc =powerOfProc;
+        this.ram = ram;
+        this.powerOfProc = powerOfProc;
     }
-    compOn(){
-        document.write(`Ваш компютер увівмнуто <br>`);
+
+    compOn() {
+        document.write(`<br>Ваш компютер увівмнуто <br>`);
     }
+
+    baseInfo() {
+        document.write(`Компютер успішно зібраний <br> Характеристики: <br>
+         Оперативна память: ${this.ram} ГБ<br> Потужність процесора: ${this.powerOfProc}<br>`)
+    }
+
+    increasePower(newPower) {
+
+        if (newPower / this.powerOfProc <= 1.1 || newPower < this.powerOfProc) {
+            this.powerOfProc = newPower;
+            document.write(`Нова потужність компютера : ${this.powerOfProc}<br>`);
+        } else {
+            alert('Ви намагаєтесь збільшити потужність більше ніж на 10%');
+        }
+    }
+
+    increaseRam() {
+        let boll = confirm('Вм хочете збільшити Оперативну память в двічі?');
+        if (boll) {
+            this.ram *= 2;
+            document.write(`Нова оперативна память компютера : ${this.ram} ГБ<br>`);
+        }
+    }
+
 }
+
+
 class Laptops extends Computers {
     constructor(ram, powerOfProc, diagonal) {
-        super(ram ,powerOfProc);
+        super(ram, powerOfProc);
         this.diagonal = diagonal;
-        this.batteryLife = this.powerOfProc/(this.diagonal*this.ram);
+        this.batteryLife = this.powerOfProc / (this.diagonal * this.ram);
     }
-    info(){
-        document.write(`Компютер успішно зібраний <br> Характеристики: <br>
-         Оперативна память: ${this.ram} ГБ<br> Потужність процесора: ${this.powerOfProc}<br>
-         Діагональ екрану: ${this.diagonal}  дюймів <br> Час роботи батареї: ${Math.round(this.batteryLife)} год <br>`)
+
+    info() {
+        document.write(`Діагональ екрану: ${this.diagonal}  дюймів <br> Час роботи батареї: ${Math.round(this.batteryLife)} год <br>`)
     }
 }
 
-let dell = new Laptops(8,800,13);
+let dell = new Laptops(8, 800, 13);
 dell.compOn();
+dell.baseInfo();
 dell.info();
 
 // Від ноутбука потрібно зробити ультрабук.
 //     Він має нову змінну ваги.
 //     При включенні ультрабуку має видаватися помилка, якшо вага більша за 2кг та батарея тримаж менше ніж 4 години.
-class Ultrabooks extends Laptops{
-    constructor(ram, powerOfProc, diagonal, weight, batteryLife= 0 ) {
-        super(ram,powerOfProc,diagonal, batteryLife);
+class Ultrabooks extends Laptops {
+    constructor(ram, powerOfProc, diagonal, weight, batteryLife = 0) {
+        super(ram, powerOfProc, diagonal, batteryLife);
         ////// this.batteryLife = this.powerOfProc/(this.diagonal*this.ram);
         this.weight = weight;
-        if (this.weight > 2 || this.batteryLife < 4){
+        if (this.weight > 2 || this.batteryLife < 4) {
             alert('ПОМИЛКА!!!!!!!!!!!!!!!!!');
             return 0;
         }
     }
-    compOn(){
-        document.write(`Ваш компютер увівмнуто <br>`);
-    }
-    info(){
-        document.write(`Компютер успішно зібраний <br> Характеристики: <br>
-         Оперативна память: ${this.ram} ГБ<br> Потужність процесора: ${this.powerOfProc}<br>
-         Діагональ екрану: ${this.diagonal}  дюймів <br> Час роботи батареї: ${Math.round(this.batteryLife)} год <br>Вага: ${Math.round(this.weight)} кг <br>`)
+
+    info() {
+        document.write(` Діагональ екрану: ${this.diagonal}  дюймів <br> Час роботи батареї: ${Math.round(this.batteryLife)} год <br>Вага: ${Math.round(this.weight)} кг <br>`)
     }
 }
-let acer = new Ultrabooks(8,800,15.6, 1);
+
+let acer = new Ultrabooks(8, 800, 15.6, 1);
 acer.compOn();
+acer.baseInfo();
 acer.info()
 
 // Від базвого класу потрібно створити базовий ПК.
@@ -74,47 +99,25 @@ acer.info()
 class BasePc extends Computers {
     constructor(ram, powerOfProc) {
         super(ram, powerOfProc);
-        this.FPS = powerOfProc/ram;
-    }
-    compOn(){
-        document.write(`Ваш компютер увівмнуто <br>`);
+        this.FPS = powerOfProc / ram;
     }
 
-    info(){
-        document.write(`Компютер успішно зібраний <br> Характеристики: <br>
-         Оперативна память: ${this.ram} ГБ<br> Потужність процесора: ${this.powerOfProc}<br>
-         Частота оновлення кадрів: ${this.FPS} FPS <br>`)
+    info() {
+        document.write(`Частота оновлення кадрів: ${this.FPS} FPS <br>`)
     }
 
-    setapGame(gameName){
+    setapGame(gameName) {
         document.write(`Ви граєте гру -"${gameName}" з частотою онвлення кадрів ${Math.round(this.FPS)} FPS<br>`)
     }
-    increasePower(newPower){
 
-        if (newPower/this.powerOfProc <= 1.1 || newPower<this.powerOfProc ){
-            this.powerOfProc = newPower;
-            document.write(`Нова потужність компютера : ${this.powerOfProc}<br>`);
-        }
-        else {
-            alert('Ви намагаєтесь збільшити потужність більше ніж на 10%');
-        }
-    }
-    increaseRam(){
-        let boll =confirm('Вм хочете збільшити Оперативну память в двічі?');
-        if (boll){
-            this.ram *= 2;
-            document.write(`Нова оперативна память компютера : ${this.ram} ГБ<br>`);
-        }
-
-    }
 }
 
-let simens = new BasePc(16,700);
+let simens = new BasePc(16, 700);
 simens.compOn();
+simens.baseInfo();
 simens.info();
 simens.setapGame('FIFA21');
 simens.increasePower(720);
-simens.increasePower(750);
 simens.increaseRam();
 
 // Від базового ПК необхідно зробити ігнорий ПК.
@@ -126,34 +129,33 @@ simens.increaseRam();
 class GamePc extends BasePc {
     constructor(ram, powerOfProc) {
         super(ram, powerOfProc);
-        this.FPS = 2*powerOfProc/ram;
+        this.FPS = 2 * powerOfProc / ram;
 
     }
-    compOn(){
-        document.write(`Ваш компютер увівмнуто <br>`);
-    }
-    info(){
-        document.write(`<br><br><br>Компютер успішно зібраний <br> Характеристики: <br>
-         Оперативна память: ${this.ram} ГБ<br> Потужність процесора: ${this.powerOfProc}<br>
-         Частота оновлення кадрів: ${this.FPS} FPS <br>`)
+
+    info() {
+        document.write(`Частота оновлення кадрів: ${this.FPS} FPS <br>`)
     }
 
-    setapGame(gameName){
-        if(this.powerOfProc < 500){
+    setapGame(gameName) {
+        if (this.powerOfProc < 500) {
             alert('На цьому відрі ігри не запускаються');
             return 0;
         }
 
-        document.write(`<br>Ви граєте гру -"${gameName}" з частотою онвлення кадрів ${Math.round(this.FPS)} FPS<br>`);
-        this.powerOfProc = this.powerOfProc*0.9;
+        document.write(`<br>Ви граєте гру -"${gameName}" з частотою онвлення кадрів ${Math.round(this.FPS)} FPS`);
+        this.powerOfProc = this.powerOfProc * 0.9;
     }
+
 }
-let lenovo = new GamePc(32,700);
+
+let lenovo = new GamePc(32, 700);
 lenovo.compOn();
+lenovo.baseInfo();
 lenovo.info();
-lenovo.setapGame('FIFA21');
-lenovo.setapGame('DOTA2');
-lenovo.setapGame('UFC');
-lenovo.setapGame("Assassin's Creed ");
-lenovo.setapGame("Cossacs 3");
+lenovo.setapGame('FIFA21');//700
+lenovo.setapGame('DOTA2');//630
+lenovo.setapGame('UFC');//567
+lenovo.setapGame("Assassin's Creed ");//510
+lenovo.setapGame("Cossacs 3"); //460 ця гра вже не піде
 
