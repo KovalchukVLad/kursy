@@ -238,22 +238,22 @@
 //
 /////////або
 //
-function numbersInput (){
-    let max = arguments[0];
-    let min = arguments[0];
-    for (let i = 0; i < arguments.length; i++) {
-        if (arguments[i]>max){
-            max =arguments[i];
-        }
-        if (arguments[i]<min){
-            min =arguments[i];
-        }
-    }
-    console.log(min);
-    console.log(max);
-}
-let a =numbersInput(39, 60, 84, 69, 30, 61, 11, 56, 69, 52, 6, 21, 68, 34, 33, 64, 8, 45, 99, 26);
-console.log(a);
+// function numbersInput (){
+//     let max = arguments[0];
+//     let min = arguments[0];
+//     for (let i = 0; i < arguments.length; i++) {
+//         if (arguments[i]>max){
+//             max =arguments[i];
+//         }
+//         if (arguments[i]<min){
+//             min =arguments[i];
+//         }
+//     }
+//     console.log(min);
+//     console.log(max);
+// }
+// let a =numbersInput(39, 60, 84, 69, 30, 61, 11, 56, 69, 52, 6, 21, 68, 34, 33, 64, 8, 45, 99, 26);
+// console.log(a);
 
 
 // - Взяти задачі з завдання 10 та 9 та обєднати їх в одну динамічну функцію.
@@ -318,32 +318,32 @@ console.log(a);
 
 
 // Написати функцію, яка приймає будь яке не валідне імя, та нормалізує його в наступнйи вигляд
-// function goodName (enterName){
-//     let sp = enterName.split(' ');
-//     let ar =[];
-//
-//     for (let i = 0; i < sp.length; i++) {
-//         if(sp[i] === ''){
-//             sp.splice(i,1);
-//         }
-//         else{
-//             ar.push(sp[i]);
-//         }
-//     }
-//     let tt = ar.join(' ');
-//     console.log(tt);
-//     console.log(tt.length);
-// }
-//
-// let str = 'VLAD     Kovalchuk  ';
-// let n1 = '    Harry       Potter      '
-// let n2 = '    Ron       Whisley      '
-// let n3 = '    Hermione       Granger      '
-// goodName(str);
-// goodName(n1);
-// goodName(n2);
-// goodName(n3);
+function goodName (enterName){
+    let sp = enterName.split(' ');
+    let ar =[];
+    for (let i = 0; i < sp.length; i++) {
+        if(sp[i] === ''){
+            sp.splice(i,1);
+            i--;
+        }
+        else{
+            ar.push(sp[i]);
+        }
+    }
+    let tt = ar.join(' ');
+    console.log(tt.length);
+}
 
+let str = 'VLAD     Kovalchuk  ';
+let n1 = '    Harry       Potter      ';
+let n2 = '    Ron       Whisley      ';
+let n3 = '    Hermione       Granger      ';
+let n4 = '          vlad               kov          ros            ';
+goodName(str);
+goodName(n1);
+goodName(n2);
+goodName(n3);
+goodName(n4);
 // ******************* НАЗАД В МИНУЛЕ *********************** //
 
 // Створити функцію яка :

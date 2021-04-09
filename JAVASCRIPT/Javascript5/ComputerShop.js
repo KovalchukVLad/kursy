@@ -159,3 +159,9 @@ lenovo.setapGame('UFC');//567
 lenovo.setapGame("Assassin's Creed ");//510
 lenovo.setapGame("Cossacs 3"); //460 ця гра вже не піде
 
+//////////////////////////////////
+//функція fps краще поміняти на
+// this.FPS = (powerOfProc * ram)/500;
+
+
+
