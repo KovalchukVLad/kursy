@@ -1,0 +1,26 @@
+.menu{
+ display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.menu div{
+    width: 15%;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #2FAB73;
+    border-radius: 20px;
+    text-align: center;
+    align-content: center;
+    font-size: 30px;
+}
+TABLE {
+    width: 300px; /* Ширина таблицы */
+    border-collapse: collapse; /* Убираем двойные линии между ячейками */
+}
+.table tr{
+    border: 1px solid black;
+    padding: 3px;
+}

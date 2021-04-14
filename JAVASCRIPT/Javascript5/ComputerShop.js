@@ -15,6 +15,10 @@ class Computers {
     constructor(ram, powerOfProc) {
         this.ram = ram;
         this.powerOfProc = powerOfProc;
+        if (powerOfProc > 1000 || powerOfProc < 1000){
+            alert('потужність має бути в межах 0 -1000');
+            return 0;
+        }
     }
 
     compOn() {
