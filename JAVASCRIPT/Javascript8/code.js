@@ -232,10 +232,6 @@
 //     }
 // }
 //
-// // let user1 = new User(1, 'vlad', 20, '@g', 'nasa', 'sky', 2501);
-// // let user2 = new User(2, 'vlad', 220, '@g', 'nassda', 'skssdcy', 2501);
-// // arr.push(user1);
-// // arr.push(user2);
 //
 //
 // let userform = document.forms.users;
