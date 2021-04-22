@@ -20,63 +20,34 @@
 // }
 
 // Знайти найблільше число поліндром яке утворюється завдяки добутку двох простих пятизначних чисел.
-// ШНЯГА ЯКАСЬ ВИЙШЛА
 // console.time('here');
-// let a = 0;
-// let max = 0;
-//
-// for ( let i = 99999; i>80000; i--) {
-//     for (let j = 99999; j > 80000; j--) {
-//         a = i * j;
-//         let b = a.toString();
-//
-//         if (b[0] === b[b.length - 1] && b[1] === b[b.length - 2] && b[2] === b[b.length - 3] && b[3] === b[b.length - 4] && b[4] === b[b.length - 5]) {
-//             if (max < b) {
-//                 max = b;
-//                 console.log(i);
-//                 console.log(j);
-//             }
-//
+// function getmax () {
+//     // debugger;
+//     let a = 99999*99999;
+//     let c = 10000*10000;
+//     let max = 0;
+//     for (let i = a; i > c; i--) {
+//         let m = [];
+//         let a1 = [];
+//         m = i.toString().split('');
+//         for (let j = m.length - 1; j >= 0; j--) {
+//             a1.push(m[j]);
+//         }
+//         if (a1.join('') === m.join('')) {
+//             max = a1.join('');
+//             return max;
 //         }
 //     }
 // }
-// console.log(max);
-// console.timeEnd('here');
-//
-// console.time('here');
-// let mn = 0;
-// let a =0;
-// let b = 0;
-// let sum = 0;
-// let max = 0;
-// for (let i = 99999; i > 0; i--) {
-//     for (let j = 99999; j > 0; j--) {
-//         // debugger;
-//         mn = i * j;
-//         a = mn;
-//
-//         if (mn.toString().length %2 === 0){
-//             continue;
-//         }
-//         sum = 0;
-//         while (a > 0) {
-//             b = a % 10;
-//             sum = sum * 10 + b;
-//             a = parseInt(a / 10);
-//         }
-//         // console.log(sum);
-//         if (mn===sum && max < mn){
-//             max = mn;
-//         }
-//     }
-// }
+// let max = getmax();
 // console.log(max);
 // console.timeEnd('here');
 
 
-// ???Дан массив целых чисел, найдите тот, который встречается нечетное количество раз.Всегда будет только одно целое число, которое встречается нечетное количество раз
+// Дан массив целых чисел, найдите тот, который встречается нечетное количество раз.
+// Всегда будет только одно целое число, которое встречается нечетное количество раз
 //     [1,2,3,4,5,2,4,1,3] -> 5
-// let arr = [1,2,3,4,5,2,4,1,3,1,2,4,3,7,5];
+// let arr = [1,2,3,4,5,2,4,1,3,1,2,4,3,7,5]; //7
 // let a=0;
 // let b=0;
 // for (let i = 0; i < arr.length; i++) {
@@ -139,20 +110,24 @@
 // console.log(c);
 
 
-// ???Палиндром
+// Палиндром
 // Дано слово, состоящее только из строчных латинских букв. Проверьте, является ли это слово палиндромом. Выведите YES или NO.
 //     При решении этой задачи нельзя пользоваться циклами, в решениях на питоне нельзя использовать срезы с шагом, отличным от 1.
 //
 // let a = 'VLADALV';
 // let b = a.split('');
+// let g = [];
 // let c = b.reduce((acc, currentValue) => {
-//     if ()
-//     if (b[b.length-acc-1] === b[acc]){
-//             acc++;
+//     if (b[b.length - acc - 1] === b[acc]) {
+//         acc++;
+//     } else {
+//         g.push(b[acc]);
+//         acc++;
 //     }
-//     if
 //     return acc;
-// },0);
+// }, 0);
+// console.log(g);
+// !(g.length) ? console.log('yes') : console.log('no');
 
 
 // Точная степень двойки
@@ -241,3 +216,43 @@
 //     }
 // }
 // console.log(a);
+
+
+// Отримати масив лише унікальних значень за допомогою reduce
+//     [1, 9, 0, 1, 5, 9, 1, 6] -> [1, 9, 0, 5, 6]
+//
+// let arr = [1, 9, 0, 1, 5, 9, 1, 6];
+// let newarr = arr.reduce((previousValue, currentValue) => {
+//     if (!(previousValue.includes(currentValue))){
+//         previousValue.push(currentValue);
+//     }
+//         return previousValue;
+// },[]);
+// console.log(newarr);
+
+
+// Реалізувати друкарську машинку.
+//     У вас є текст "Hello World".
+//     Ваша функція має друкувати цей текст по 1 симоволу в браузері.
+//     КОЖНА нова буква має бути з РАНДОМНОЮ заутримкою від 0.1 до 1 секунди.
+//     Цим самим ви маєте симулювати написання даного тексту юзером.
+//     Приклад: "Hello"
+// Затримки:
+//     H (затримка 0.6)
+// e (затримка 0.1)
+// l (затримка 0.3)
+// l (затримка 0.7)
+// о (затримка 1)
+//
+// function parsetxt (txt=[], i=0, time = Math.random() * (1000 - 100) + 100) {
+//         setTimeout(()=>{
+//             if (!txt[i]){
+//                 return;
+//             }
+//             document.write(txt[i]);
+//             i++;
+//             return parsetxt(txt, i);
+//         },time);
+// }
+// let txt = 'The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser.';
+// parsetxt(txt.split(''));
